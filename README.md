@@ -31,15 +31,7 @@ I'm always open to connecting with people working in computational chemistry, AI
 
 ## Scientific software
 
-| Project | What it is |
-|---|---|
-| [**rDeckgl**](https://github.com/TiRizvanov/rDeckgl) | R bindings for deck.gl: large interactive WebGL visualizations from R, with DuckDB-backed data. Author and maintainer, on [CRAN](https://cran.r-project.org/package=rDeckgl). |
-| [**rMosaic**](https://github.com/TiRizvanov/rMosaic) | R bindings for the Mosaic visualization framework: linked, cross-filtered plots backed by DuckDB or DuckDB-WASM. Author and maintainer, on [CRAN](https://cran.r-project.org/package=rMosaic). |
-| [**dbverse**](https://github.com/dbverse-org/dbverse) | Larger-than-memory scientific data analysis on embedded analytical databases. Co-developer; [preprint on bioRxiv](https://doi.org/10.64898/2026.08.09.743742). |
-| [**PRSGuard**](https://github.com/rinatrizvanov/prsguard-demo) | Decides whether a polygenic risk score can be interpreted for a given person. Team project; winner, ClawBio Hackathons: Agentic Genomics 2026. [Live demo](https://rinatrizvanov.github.io/prsguard-demo/). |
-| [**MacroGlide Newsletter**](https://www.macroglide.com/newsletter/us/archive) | Automated financial newsletter platform: multi-source data acquisition, agentic news selection and writing, email delivery. |
-
-Figures, benchmarks and demos for each of these are on [tirizvanov.github.io](https://tirizvanov.github.io/).
+Projects, figures, benchmarks and demos are on [tirizvanov.github.io](https://tirizvanov.github.io/).
 
 ## Activity
 
