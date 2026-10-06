@@ -1,4 +1,4 @@
-name: Generate contribution snake
+name: Generate contribution snake and activity card
 
 on:
   schedule:
@@ -27,6 +27,11 @@ jobs:
 
       - name: Keep the cells lit while the snake walks
         run: python3 scripts/keep_cells.py dist/snake.svg dist/snake-dark.svg
+
+      - name: Draw the activity card
+        run: python3 scripts/build_activity_card.py ${{ github.repository_owner }} dist/activity.svg
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       # The README reads the SVGs from the output branch so generated files never land on main.
       - name: Publish to the output branch

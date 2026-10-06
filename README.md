@@ -36,7 +36,7 @@ Projects, figures, benchmarks and demos are on [tirizvanov.github.io](https://ti
 ## Activity
 
 <p align="center">
-  <img height="170" src="https://streak-stats.demolab.com?user=TiRizvanov&hide_border=true&background=0a0a0a&ring=70befa&fire=a78bfa&currStreakNum=ffffff&currStreakLabel=70befa&sideNums=ffffff&sideLabels=70befa&dates=8b949e&stroke=30363d" alt="Contribution streak for TiRizvanov with an animated ring">
+  <img height="170" src="https://raw.githubusercontent.com/TiRizvanov/TiRizvanov/output/activity.svg" alt="Contributions in the last year with an animated ring, active days and longest streak">
 </p>
 
 <p align="center">
