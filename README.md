@@ -38,3 +38,7 @@ Projects, figures, benchmarks and demos are on [tirizvanov.github.io](https://ti
     <img src="https://raw.githubusercontent.com/TiRizvanov/TiRizvanov/output/snake.svg" width="100%" alt="A blue and violet snake walking across the contribution grid of TiRizvanov">
   </picture>
 </p>
+
+<p align="center">
+  <img height="190" src="assets/languages.svg" alt="Primary language across 85 repositories: TypeScript 52%, Python 22%, JavaScript 8%, R 7%, HTML 6%, Swift 4%, OCaml 1%">
+</p>
