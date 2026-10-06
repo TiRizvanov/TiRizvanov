@@ -20,6 +20,8 @@ QUERY = """query($cursor: String) {
     }
   }
 }"""
+# Markup, not a programming language.
+EXCLUDED = {"HTML"}
 COLOURS = ["#70befa", "#a78bfa", "#4f8ff0", "#c4b5fd", "#8fa5fb", "#6d5fe0", "#b9dcfd", "#94a3b8"]
 WIDTH, HEIGHT = 1200, 132
 BAR_X, BAR_WIDTH, GAP = 40, 1120, 4
@@ -39,7 +41,8 @@ def fetch_primary_languages(token):
         if payload.get("errors"):
             raise RuntimeError(f"GitHub API error: {payload['errors']}")
         page = payload["data"]["viewer"]["repositories"]
-        languages += [node["primaryLanguage"]["name"] for node in page["nodes"] if node["primaryLanguage"]]
+        languages += [node["primaryLanguage"]["name"] for node in page["nodes"]
+                      if node["primaryLanguage"] and node["primaryLanguage"]["name"] not in EXCLUDED]
         if not page["pageInfo"]["hasNextPage"]:
             return languages
         cursor = page["pageInfo"]["endCursor"]

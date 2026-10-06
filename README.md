@@ -40,5 +40,5 @@ Projects, figures, benchmarks and demos are on [tirizvanov.github.io](https://ti
 </p>
 
 <p align="center">
-  <img width="100%" src="assets/languages.svg" alt="Primary language across 85 repositories: TypeScript 52%, Python 22%, JavaScript 8%, R 7%, HTML 6%, Swift 4%, OCaml 1%">
+  <img width="100%" src="assets/languages.svg" alt="Primary language across 80 repositories: TypeScript 55%, Python 24%, JavaScript 9%, R 8%, Swift 4%, OCaml 1%">
 </p>
