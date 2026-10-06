@@ -13,21 +13,13 @@
 
 ## About
 
-I'm a Chemistry + Computer Science student at Boston University and a Co-Founder & CTO at MacroGlide, where I work at the intersection of product, engineering, data, and decision-making.
+I build products and scientific software: Co-Founder & CTO at **MacroGlide**, and a Chemistry + Computer Science student at **Boston University** doing research in computational chemistry and biology.
 
-At MacroGlide, I lead technical architecture, team coordination, and development workflows while also contributing hands-on across the stack. My work includes building and scaling product features. I enjoy turning complex product ideas into reliable systems and leading teams that can execute them well.
+<p align="center">
+  <img src="assets/about.svg" width="100%" alt="Building: MacroGlide, Co-Founder and CTO - technical architecture, team leadership and hands-on work across the stack. Research at Boston University: Bravaya Lab, machine learning for protein electron transfer; Dries Lab, GPU and database-backed spatial omics visualization; Vajda Lab, protein-ligand docking. Drawn to: computational chemistry, AI-aided drug discovery, molecular modeling with machine learning, scientific computing.">
+</p>
 
-<details>
-<summary><b>Research, interests and getting in touch</b></summary>
-<br>
-
-Alongside startup work, I'm deeply involved in research across computational chemistry, scientific software, and computational biology. In the Dries Lab, I develop scalable visualization tools for spatial omics data, including GPU-accelerated and database-backed workflows for the Giotto ecosystem. In the Vajda Lab, I worked on computational analysis of protein-ligand docking and structure-based modeling. In the Bravaya Lab, I focus on protein electron transfer pathways, structural analysis, bioinformatics workflows, and machine learning for electron coupling prediction.
-
-I'm especially interested in computational chemistry and AI-aided drug discovery, particularly at the intersection of molecular modeling, machine learning, and scientific computing. Long term, I want to work on ambitious problems in computational drug discovery and AI-driven molecular research, while continuing to build scientific tools and products with real-world impact.
-
-I'm always open to connecting with people working in computational chemistry, AI-driven drug discovery, biotech, scientific computing, and high-impact engineering, as well as people interested in MacroGlide, potential collaborations, or opportunities to work with us.
-
-</details>
+Open to conversations about computational chemistry, AI-driven drug discovery, scientific computing, and working with MacroGlide.
 
 ## Scientific software
 

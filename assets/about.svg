@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 270" width="1200" height="270" role="img" aria-label="Building: MacroGlide, Co-Founder and CTO - technical architecture, team leadership and hands-on work across the stack. Research at Boston University: Bravaya Lab, machine learning for protein electron transfer; Dries Lab, GPU and database-backed spatial omics visualization; Vajda Lab, protein-ligand docking. Drawn to: computational chemistry, AI-aided drug discovery, molecular modeling with machine learning, scientific computing.">
+  <defs>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a0a0a"/>
+      <stop offset="1" stop-color="#0e1430"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#70befa"/>
+      <stop offset="1" stop-color="#a78bfa"/>
+    </linearGradient>
+  </defs>
+
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+    <g>
+      <rect width="384" height="270" rx="16" fill="url(#card)"/>
+      <rect x="32" y="34" width="56" height="4" rx="2" fill="url(#accent)">
+        <animate attributeName="width" from="0" to="56" dur="0.9s" fill="freeze"/>
+      </rect>
+      <text x="32" y="70" font-size="14" font-weight="600" letter-spacing="2.5" fill="#70befa">BUILDING</text>
+      <text x="32" y="110" font-size="30" font-weight="700" fill="#ffffff">MacroGlide</text>
+      <text x="32" y="142" font-size="18" font-weight="600" fill="#b9dcfd">Co-Founder &amp; CTO</text>
+      <text font-size="17" fill="#9da7b3">
+        <tspan x="32" y="180">Technical architecture, team</tspan>
+        <tspan x="32" y="205">leadership and hands-on work</tspan>
+        <tspan x="32" y="230">across the stack.</tspan>
+      </text>
+    </g>
+
+    <g transform="translate(408 0)">
+      <rect width="384" height="270" rx="16" fill="url(#card)"/>
+      <rect x="32" y="34" width="56" height="4" rx="2" fill="url(#accent)">
+        <animate attributeName="width" from="0" to="56" dur="0.9s" begin="0.2s" fill="freeze"/>
+      </rect>
+      <text x="32" y="70" font-size="14" font-weight="600" letter-spacing="2.5" fill="#8fa5fb">RESEARCH</text>
+      <text x="32" y="110" font-size="30" font-weight="700" fill="#ffffff">Boston University</text>
+      <text font-size="17">
+        <tspan x="32" y="146" font-weight="600" fill="#b9dcfd">Bravaya Lab</tspan>
+        <tspan x="32" y="168" fill="#9da7b3">ML for protein electron transfer</tspan>
+        <tspan x="32" y="198" font-weight="600" fill="#b9dcfd">Dries Lab</tspan>
+        <tspan x="32" y="220" fill="#9da7b3">GPU + database-backed spatial omics</tspan>
+        <tspan x="32" y="250" font-weight="600" fill="#b9dcfd">Vajda Lab</tspan>
+        <tspan x="140" y="250" fill="#9da7b3">Protein-ligand docking</tspan>
+      </text>
+    </g>
+
+    <g transform="translate(816 0)">
+      <rect width="384" height="270" rx="16" fill="url(#card)"/>
+      <rect x="32" y="34" width="56" height="4" rx="2" fill="url(#accent)">
+        <animate attributeName="width" from="0" to="56" dur="0.9s" begin="0.4s" fill="freeze"/>
+      </rect>
+      <text x="32" y="70" font-size="14" font-weight="600" letter-spacing="2.5" fill="#a78bfa">DRAWN TO</text>
+      <text x="32" y="110" font-size="30" font-weight="700" fill="#ffffff">Drug discovery</text>
+      <g fill="url(#accent)">
+        <circle cx="38" cy="148" r="4"/><circle cx="38" cy="178" r="4"/><circle cx="38" cy="208" r="4"/><circle cx="38" cy="238" r="4"/>
+      </g>
+      <text font-size="17" fill="#c9d1d9">
+        <tspan x="56" y="154">Computational chemistry</tspan>
+        <tspan x="56" y="184">AI-aided drug discovery</tspan>
+        <tspan x="56" y="214">Molecular modeling + machine learning</tspan>
+        <tspan x="56" y="244">Scientific computing</tspan>
+      </text>
+    </g>
+  </g>
+</svg>
