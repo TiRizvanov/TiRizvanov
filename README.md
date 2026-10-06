@@ -43,7 +43,6 @@ Figures, benchmarks and demos for each of these are on [tirizvanov.github.io](ht
 ## Activity
 
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=TiRizvanov&show_icons=true&include_all_commits=true&hide_border=true&bg_color=0d1117&title_color=c4b5fd&text_color=c9d1d9&icon_color=a78bfa&ring_color=a78bfa" alt="GitHub statistics for TiRizvanov with an animated rank ring">
   <img height="170" src="https://streak-stats.demolab.com?user=TiRizvanov&hide_border=true&background=0d1117&ring=a78bfa&fire=c084fc&currStreakNum=f5f3ff&currStreakLabel=c4b5fd&sideNums=f5f3ff&sideLabels=c4b5fd&dates=8b949e&stroke=30363d" alt="Contribution streak for TiRizvanov with an animated ring">
 </p>
 
