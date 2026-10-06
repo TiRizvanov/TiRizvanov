@@ -5,7 +5,7 @@
 <p align="center">
   <a href="https://www.macroglide.com/"><img src="https://img.shields.io/badge/MacroGlide-macroglide.com-70befa?style=for-the-badge" alt="MacroGlide: macroglide.com"></a>
   <a href="https://tirizvanov.github.io/"><img src="https://img.shields.io/badge/Projects_and_figures-tirizvanov.github.io-82a9fb?style=for-the-badge" alt="Projects and figures: tirizvanov.github.io"></a>
-  <a href="https://tirizvanov.github.io/assets/Timur_Rizvanov_CV.pdf"><img src="https://img.shields.io/badge/CV-PDF-9596fb?style=for-the-badge" alt="CV (PDF)"></a>
+  <a href="https://tirizvanov.github.io/assets/Timur_Rizvanov_Resume.pdf"><img src="https://img.shields.io/badge/Resume-PDF-9596fb?style=for-the-badge" alt="Resume (PDF)"></a>
   <br>
   <a href="https://www.linkedin.com/in/timurrizvanov"><img src="https://img.shields.io/badge/LinkedIn-timurrizvanov-82a9fb?style=for-the-badge" alt="LinkedIn: timurrizvanov"></a>
   <a href="mailto:timurr@bu.edu"><img src="https://img.shields.io/badge/Email-timurr%40bu.edu-a78bfa?style=for-the-badge" alt="Email: timurr@bu.edu"></a>
