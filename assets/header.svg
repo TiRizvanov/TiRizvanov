@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320" role="img" aria-label="Timur Rizvanov - Co-Founder and CTO at MacroGlide; computational chemistry, spatial biology, GPU and database-accelerated scientific software; Chemistry and CS at Boston University">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1117"/>
+      <stop offset="1" stop-color="#1b1035"/>
+    </linearGradient>
+    <linearGradient id="name" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#f5f3ff"/>
+      <stop offset="1" stop-color="#c4b5fd"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop offset="0" stop-color="#a78bfa" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#a78bfa" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="frame"><rect width="1200" height="320" rx="18"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="320" fill="url(#bg)"/>
+
+    <!-- Orbital system: three tilted rings around one nucleus, each carrying one electron. -->
+    <g transform="translate(1030 160)">
+      <circle r="140" fill="url(#glow)">
+        <animate attributeName="r" values="120;155;120" dur="6s" repeatCount="indefinite"/>
+      </circle>
+      <g fill="none" stroke="#a78bfa" stroke-opacity="0.45" stroke-width="1.5">
+        <ellipse rx="130" ry="46"/>
+        <ellipse rx="130" ry="46" transform="rotate(60)"/>
+        <ellipse rx="130" ry="46" transform="rotate(120)"/>
+      </g>
+      <circle r="13" fill="#c084fc">
+        <animate attributeName="r" values="11;15;11" dur="3s" repeatCount="indefinite"/>
+      </circle>
+      <circle r="6" fill="#f5f3ff">
+        <animateMotion dur="5s" repeatCount="indefinite" path="M130,0 A130,46 0 1,1 -130,0 A130,46 0 1,1 130,0"/>
+      </circle>
+      <g transform="rotate(60)">
+        <circle r="6" fill="#c4b5fd">
+          <animateMotion dur="7s" repeatCount="indefinite" path="M130,0 A130,46 0 1,1 -130,0 A130,46 0 1,1 130,0"/>
+        </circle>
+      </g>
+      <g transform="rotate(120)">
+        <circle r="6" fill="#7c3aed">
+          <animateMotion dur="9s" repeatCount="indefinite" path="M-130,0 A130,46 0 1,1 130,0 A130,46 0 1,1 -130,0"/>
+        </circle>
+      </g>
+    </g>
+
+    <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+      <text x="64" y="118" font-size="62" font-weight="700" letter-spacing="-1.5" fill="url(#name)">Timur Rizvanov</text>
+      <rect x="66" y="142" width="0" height="4" rx="2" fill="#7c3aed">
+        <animate attributeName="width" from="0" to="250" dur="1.2s" fill="freeze"/>
+      </rect>
+      <text x="64" y="192" font-size="25" font-weight="600" fill="#e9d5ff">Co-Founder &amp; CTO @ MacroGlide</text>
+      <text x="64" y="232" font-size="18" fill="#c9d1d9">Computational Chemistry • Spatial Biology • GPU &amp; Database-Accelerated Scientific Software</text>
+      <text x="64" y="264" font-size="18" fill="#8b949e">Chemistry + CS @ Boston University</text>
+    </g>
+  </g>
+</svg>
