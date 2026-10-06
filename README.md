@@ -1,13 +1,14 @@
 <p align="center">
-  <img src="assets/header.svg" width="100%" alt="Timur Rizvanov - Co-Founder and CTO at MacroGlide; computational chemistry, spatial biology, GPU and database-accelerated scientific software; Chemistry and CS at Boston University">
+  <img src="assets/header.svg" width="100%" alt="Timur Rizvanov - Co-Founder and CTO at MacroGlide; computational chemistry, spatial biology, GPU and database-accelerated scientific software; Chemistry and CS at Boston University. Beside the text, a rotating backbone of cryptochrome 1.">
 </p>
 
 <p align="center">
-  <a href="https://tirizvanov.github.io/"><img src="https://img.shields.io/badge/Projects_and_figures-tirizvanov.github.io-7c3aed?style=for-the-badge" alt="Projects and figures: tirizvanov.github.io"></a>
-  <a href="https://tirizvanov.github.io/assets/Timur_Rizvanov_CV.pdf"><img src="https://img.shields.io/badge/CV-PDF-a78bfa?style=for-the-badge" alt="CV (PDF)"></a>
-  <a href="https://www.linkedin.com/in/timurrizvanov"><img src="https://img.shields.io/badge/LinkedIn-timurrizvanov-5b21b6?style=for-the-badge" alt="LinkedIn: timurrizvanov"></a>
-  <a href="https://www.macroglide.com/"><img src="https://img.shields.io/badge/MacroGlide-macroglide.com-3b1d6e?style=for-the-badge" alt="MacroGlide: macroglide.com"></a>
-  <a href="mailto:timurr@bu.edu"><img src="https://img.shields.io/badge/Email-timurr%40bu.edu-30363d?style=for-the-badge" alt="Email: timurr@bu.edu"></a>
+  <a href="https://www.macroglide.com/"><img src="https://img.shields.io/badge/MacroGlide-macroglide.com-70befa?style=for-the-badge" alt="MacroGlide: macroglide.com"></a>
+  <a href="https://tirizvanov.github.io/"><img src="https://img.shields.io/badge/Projects_and_figures-tirizvanov.github.io-82a9fb?style=for-the-badge" alt="Projects and figures: tirizvanov.github.io"></a>
+  <a href="https://tirizvanov.github.io/assets/Timur_Rizvanov_CV.pdf"><img src="https://img.shields.io/badge/CV-PDF-9596fb?style=for-the-badge" alt="CV (PDF)"></a>
+  <br>
+  <a href="https://www.linkedin.com/in/timurrizvanov"><img src="https://img.shields.io/badge/LinkedIn-timurrizvanov-82a9fb?style=for-the-badge" alt="LinkedIn: timurrizvanov"></a>
+  <a href="mailto:timurr@bu.edu"><img src="https://img.shields.io/badge/Email-timurr%40bu.edu-a78bfa?style=for-the-badge" alt="Email: timurr@bu.edu"></a>
 </p>
 
 ## About
@@ -43,13 +44,13 @@ Figures, benchmarks and demos for each of these are on [tirizvanov.github.io](ht
 ## Activity
 
 <p align="center">
-  <img height="170" src="https://streak-stats.demolab.com?user=TiRizvanov&hide_border=true&background=0d1117&ring=a78bfa&fire=c084fc&currStreakNum=f5f3ff&currStreakLabel=c4b5fd&sideNums=f5f3ff&sideLabels=c4b5fd&dates=8b949e&stroke=30363d" alt="Contribution streak for TiRizvanov with an animated ring">
+  <img height="170" src="https://streak-stats.demolab.com?user=TiRizvanov&hide_border=true&background=0a0a0a&ring=70befa&fire=a78bfa&currStreakNum=ffffff&currStreakLabel=70befa&sideNums=ffffff&sideLabels=70befa&dates=8b949e&stroke=30363d" alt="Contribution streak for TiRizvanov with an animated ring">
 </p>
 
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/TiRizvanov/TiRizvanov/output/snake-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/TiRizvanov/TiRizvanov/output/snake.svg">
-    <img src="https://raw.githubusercontent.com/TiRizvanov/TiRizvanov/output/snake.svg" width="100%" alt="A purple snake moving across the contribution grid of TiRizvanov">
+    <img src="https://raw.githubusercontent.com/TiRizvanov/TiRizvanov/output/snake.svg" width="100%" alt="A blue and violet snake walking across the contribution grid of TiRizvanov">
   </picture>
 </p>
