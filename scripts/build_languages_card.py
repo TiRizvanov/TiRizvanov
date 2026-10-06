@@ -21,7 +21,8 @@ QUERY = """query($cursor: String) {
   }
 }"""
 COLOURS = ["#70befa", "#a78bfa", "#4f8ff0", "#c4b5fd", "#8fa5fb", "#6d5fe0", "#b9dcfd", "#94a3b8"]
-BAR_X, BAR_WIDTH, GAP = 32, 431, 3
+WIDTH, HEIGHT = 1200, 132
+BAR_X, BAR_WIDTH, GAP = 40, 1120, 4
 OUT = pathlib.Path(__file__).resolve().parent.parent / "assets" / "languages.svg"
 
 
@@ -51,25 +52,23 @@ def card_svg(languages):
     bar, legend, x = [], [], float(BAR_X)
     for i, ((name, count), colour) in enumerate(zip(ranked, COLOURS)):
         width = usable * count / sum(n for _, n in ranked)
-        bar.append(f'<rect x="{x:.1f}" y="62" width="{width:.1f}" height="12" rx="6" fill="{colour}"/>')
+        bar.append(f'<rect x="{x:.1f}" y="60" width="{width:.1f}" height="14" rx="7" fill="{colour}"/>')
         x += width + GAP
-        lx, ly = (32, 247.5)[i % 2], 104 + 26 * (i // 2)
-        legend.append(f'<circle cx="{lx + 5}" cy="{ly - 5}" r="5" fill="{colour}"/>'
-                      f'<text x="{lx + 20}" y="{ly}" font-size="14" fill="#e6edf3">{name}</text>'
-                      f'<text x="{lx + 190}" y="{ly}" font-size="14" text-anchor="end" fill="#8b949e">'
-                      f'{100 * count / total:.0f}%</text>')
-    height = 104 + 26 * ((len(ranked) + 1) // 2)
+        lx = BAR_X + i * BAR_WIDTH / len(ranked)
+        legend.append(f'<circle cx="{lx + 6:.1f}" cy="100" r="6" fill="{colour}"/>'
+                      f'<text x="{lx + 22:.1f}" y="106" font-size="18" fill="#e6edf3">{name} '
+                      f'<tspan fill="#8b949e">{100 * count / total:.0f}%</tspan></text>')
     summary = ", ".join(f"{name} {100 * count / total:.0f}%" for name, count in ranked)
-    return f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 495 {height}" width="495" height="{height}" role="img" aria-label="Primary language across {total} repositories: {summary}">
+    return f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {WIDTH} {HEIGHT}" width="{WIDTH}" height="{HEIGHT}" role="img" aria-label="Primary language across {total} repositories: {summary}">
   <defs>
-    <clipPath id="reveal"><rect x="{BAR_X}" y="56" width="{BAR_WIDTH}" height="24">
+    <clipPath id="reveal"><rect x="{BAR_X}" y="54" width="{BAR_WIDTH}" height="26">
       <animate attributeName="width" from="0" to="{BAR_WIDTH}" dur="1.6s" fill="freeze" calcMode="spline" keySplines="0.2 0.7 0.2 1" keyTimes="0;1"/>
     </rect></clipPath>
   </defs>
-  <rect width="495" height="{height}" rx="10" fill="#0a0a0a"/>
+  <rect width="{WIDTH}" height="{HEIGHT}" rx="16" fill="#0a0a0a"/>
   <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
-    <text x="32" y="38" font-size="16" font-weight="600" fill="#70befa">Languages</text>
-    <text x="463" y="38" font-size="12" text-anchor="end" fill="#8b949e">primary language across {total} repositories</text>
+    <text x="{BAR_X}" y="38" font-size="20" font-weight="600" fill="#70befa">Languages</text>
+    <text x="{BAR_X + BAR_WIDTH}" y="38" font-size="16" text-anchor="end" fill="#8b949e">primary language across {total} repositories</text>
     <g clip-path="url(#reveal)">{"".join(bar)}</g>
     {"".join(legend)}
   </g>
