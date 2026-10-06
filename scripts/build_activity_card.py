@@ -64,7 +64,7 @@ def card_svg(total, counts):
   <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" text-anchor="middle">
     <text x="82.5" y="88" font-size="30" font-weight="700" fill="#ffffff">{active}</text>
     <text x="82.5" y="116" font-size="14" fill="#70befa">Active days</text>
-    <text x="82.5" y="137" font-size="12" fill="#8b949e">of the last {len(counts)}</text>
+    <text x="82.5" y="137" font-size="12" fill="#8b949e">in the last year</text>
 
     <circle cx="247.5" cy="78" r="{RING_RADIUS}" fill="none" stroke="#1c2330" stroke-width="6"/>
     <circle cx="247.5" cy="78" r="{RING_RADIUS}" fill="none" stroke="url(#ring)" stroke-width="6" stroke-linecap="round" transform="rotate(-90 247.5 78)" stroke-dasharray="{filled:.1f} {circumference:.1f}">
